@@ -6,7 +6,7 @@
  * @brief      This file implements ejemplo manana.
  *
  * @author     Gustavo Ortiz Uriburu
- * @date       2021
+ * @date       2021-2022
  */
 #include <stdio.h>
 
