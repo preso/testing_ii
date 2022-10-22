@@ -1,6 +1,7 @@
 import numpy
 import ctypes
 
+# el path /opt/robotframework/tests es el que utiliza el docker
 _libmanana = numpy.ctypeslib.load_library('libmanana', '/opt/robotframework/tests')
 
 _libmanana.calculaManana.argtypes = [ctypes.c_int, ctypes.c_int, ctypes.c_int]
