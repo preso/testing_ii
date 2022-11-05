@@ -10,7 +10,7 @@ Dia Valido
 Dia Anio Bisiesto
   [Documentation]   Tiene que ser 1-3-2004
   ${value} =  Calcula   2004  02  29
-  Should Be True  ${value} == 1
+  Should Be True  ${value} == 0
 
 Dia Anio Bisiesto Invalido
   [Documentation]   Invalido por no ser bisiesto
